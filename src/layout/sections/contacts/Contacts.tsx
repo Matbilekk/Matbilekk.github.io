@@ -40,11 +40,11 @@ export const Contacts: React.FC = () => {
           <S.Field required placeholder={"Subject"} name={"subject"} />
           <S.Field
             required
-            placeholder={"Massage"}
+            placeholder={"Message"}
             as={"textarea"}
             name={"message"}
           />
-          <Button type={"submit"}>Send Massage</Button>
+          <Button type={"submit"}>Send Message</Button>
         </S.Form>
       </Countainer>
     </S.Contacts>
