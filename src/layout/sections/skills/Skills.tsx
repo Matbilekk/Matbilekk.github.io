@@ -50,18 +50,16 @@ export const Skills = () => {
       <Countainer>
         <SectionTitle>My Skills</SectionTitle>
         <FlexWrapper wrap={"wrap"} justify={"space-between"}>
-          <Fade cascade={true} damping={0.2}>
-            {skillData.map((s, index) => {
-              return (
-                <Skill
-                  iconId={s.iconId}
-                  key={index}
-                  title={s.title}
-                  description={s.description}
-                />
-              );
-            })}
-          </Fade>
+          {skillData.map((s, index) => {
+            return (
+              <Skill
+                iconId={s.iconId}
+                key={index}
+                title={s.title}
+                description={s.description}
+              />
+            );
+          })}
         </FlexWrapper>
       </Countainer>
     </S.Skills>
