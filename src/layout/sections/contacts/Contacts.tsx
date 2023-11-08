@@ -37,7 +37,7 @@ export const Contacts: React.FC = () => {
         <S.Form ref={form} onSubmit={sendEmail}>
           <S.Field required placeholder={"Name"} name={"user_name"} />
           <S.Field required placeholder={"Email"} name={"email"} />
-          <S.Field required placeholder={"Sobject"} name={"subject"} />
+          <S.Field required placeholder={"Subject"} name={"subject"} />
           <S.Field
             required
             placeholder={"Massage"}
